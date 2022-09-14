@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Price {
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);
+        float first, second, result;
+        System.out.println("What is Bitcoin price today?");
+        first = num.nextFloat();
+        System.out.println("How much $ do you have?");
+        second = num.nextFloat();
+        result = second / first;
+        System.out.println("You can buy BTC - " + result);
+    }
+}
